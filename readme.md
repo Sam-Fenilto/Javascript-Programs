@@ -1,13 +1,17 @@
 # Basic Javascript programs (Beginners)
 This are the codes witten in my own way if you can able to optimize the lines then go for it :)
+</br>
 
 ## requirements:
 	Basic Javascript Programming Knowledge.
 	Code Editor and a Browser with console.
 	Every progam will be executed in the console Window.
-	To work properly comment out the codes which u dont want to be executed.
+	Comment out the codes which u dont want to be executed.
+	You can add a  switch to run programs according to given number.
+</br>
 
 ## programs:
+list of programs in the test.js;
 
 - 1.Write a program to create two seperate array for odd or even.
 - 2.Finding the missing numbers of given array using javascript.
@@ -41,3 +45,7 @@ This are the codes witten in my own way if you can able to optimize the lines th
 - 31.Factorial of a number.
 - 32.Multiplication table.
 - 33.Fibanocci Series for n numbers.
+
+
+
+### All the Best
