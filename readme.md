@@ -1,6 +1,8 @@
-# Basic Javascript programs (Beginners)
-This are the codes witten in my own way if you can able to optimize the lines then go for it :)
+# Javascript programs (Beginners)
+This are the codes witten in my own way if you can able to optimize the lines then go for it :).
+You can add a switch case to run programs according to given number.
 </br>
+
 
 ## requirements:
 	Basic Javascript Programming Knowledge.
