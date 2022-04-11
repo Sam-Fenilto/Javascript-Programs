@@ -1,9 +1,11 @@
-# Basic Javascript programs :) 
-
+# Basic Javascript programs (Beginners)
+This are the codes witten in my own way if you can able to optimize the lines then go for it :)
 
 ## requirements:
-		Basic Javascript Programming Knowledge.
-		Code Editor and a Browser with console.
+	Basic Javascript Programming Knowledge.
+	Code Editor and a Browser with console.
+	Every progam will be executed in the console Window.
+	To work properly comment out the codes which u dont want to be executed.
 
 ## programs:
 
