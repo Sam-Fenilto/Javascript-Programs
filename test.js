@@ -982,3 +982,248 @@ function fibanocciSeries(num){
 }
 
 console.log(fibanocciSeries(len));
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------
+
+//34.Find given three and four digit is an Armstrong number.
+
+var num = prompt("Enter number : ");
+let sum = 0;
+
+function armstrongThree(num){ 
+    let temp = num;
+    let result;
+    if(temp < 1000 && temp > 99){
+    for(let i of temp){
+        sum += i * i * i;
+    }
+    sum = parseInt(sum);
+    if(sum == num){
+        result = "armstrong number"
+    }else{
+        result = "not armstrong number"
+    }
+    return result
+    }
+    
+};
+
+function  armstrongFour(num){
+    let temp = num;
+    let result;
+    if(temp < 10000 && temp > 999){
+        for(let i of temp){
+        sum+= i * i * i * i;
+    }
+    sum = parseInt(sum);
+    if(sum == num){
+        result = "armstrong number"
+    }else{
+        result = "not armstrong number"
+    }
+    return result
+    }
+};
+
+
+console.log(armstrongFour(num));
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------
+
+//35.Simple Calculator using switch
+
+let operator = prompt("Enter operator + , * , /, -");
+let num1 = parseInt(prompt("Enter the 1st number : "));
+let num2 = parseInt(prompt("Enter the 2nd number : "));
+
+
+function calculator(num1,num2,operator){
+    switch(operator){
+        case '+':
+        result = parseFloat(num1 + num2);
+        break;
+        case '-':
+        result = parseFloat(num1 - num2);
+        break;
+        case '*':
+        result = parseFloat(num1 * num2);
+        break;
+        case '/':
+        result = parseFloat(num1 / num2);
+        break;
+        default:
+        result = "Enter valid numbers and operator"
+        break;
+    }
+    return result;
+}
+
+console.log(calculator(num1,num2,operator));
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------
+
+//36.Find the Sum of Natural Numbers
+
+let range = parseInt(prompt("Enter the positive number : "));
+
+function sumOfInt(range){
+    let result;
+    let sum = 0;
+    if(range <= 0 || range == ""){
+        result = "Enter a positive number"
+    }else{
+
+        for (let i = 0 ;i <=end range; i++){
+            sum += i;
+        }
+        result = sum;
+    }
+    return result;
+}
+
+
+console.log(sumOfInt(range));
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------
+
+//37.Check if the Numbers Have Same Last Digit
+
+
+let num1 = parseInt(prompt("enter the first number : "));
+let num2 = parseInt(prompt("Enter the second number : "));
+let num3 = parseInt(prompt("Enter the third number : "));
+
+function sameLastDigit(num1, num2, num3){
+    let result;
+
+    const res1 = num1 % 10;
+    const res2 = num2 % 10;
+    const res3 = num3 % 10;
+    if(res1 == res2 && res1 == res3){
+        result = "the last digits are same to all";
+    }else{
+        result = "the last digit are not same"
+    }
+    return result;
+}
+
+console.log(sameLastDigit(num1, num2, num3));
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------
+
+//38.Find HCF or GCD
+
+let a = parseInt(prompt("Enter the a value : "));
+let b = parseInt(prompt("Enter the b value : "));
+
+function gcd(a, b){
+    let result;
+    let gcd;
+
+    for(let i = 0; i <= a && b; i++){
+        if(a%i == 0 && b % i == 0){
+            gcd = i;
+            result = gcd;
+        }
+    }
+    return result;
+}
+console.log(gcd(a, b));
+
+
+
+
+
+
+
+
+
+
+//39.Find LCM
+
+let a = parseInt(prompt("Enter the a value : "));
+let b = parseInt(prompt("Enter the b value : "));
+console.log(lcm(a,b))
+
+function lcm (a, b){
+    let result;
+    let arr1 = [];
+    let arr2 = [];
+    let temp1 = 0;
+    let temp2 = 0;
+
+    for(let i = 1; i < 100; i++){
+        temp1 += a;
+        arr1.push(temp1)   
+    }
+    for(let j = 1; j < 100; j++){
+        temp2 += b;
+        arr2.push(temp2);   
+    }
+
+    return arrayCommon(arr1,arr2)
+
+}
+
+function arrayCommon(arr1,arr2){
+    let result;
+    let ans = [];
+    for( let i = 0; i<arr1.length; i++){
+        //console.log(arr1[i]);
+        for(let j = 0; j<arr2.length; j++){
+            if(arr1[i] == arr2[j]){
+                ans.push(arr1[i]);
+            }
+        }
+
+    }
+    result = ans[0];
+    return result;
+}

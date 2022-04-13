@@ -47,6 +47,12 @@ list of programs in the test.js;
 - 31.Factorial of a number.
 - 32.Multiplication table.
 - 33.Fibanocci Series for n numbers.
+- 34.Find given three and four digit is an Armstrong number.
+- 35.Simple Calculator using switch.
+- 36.Find the Sum of Natural Numbers.
+- 37.Check if the Numbers Have Same Last Digit.
+- 38.Find HCF or GCD.
+- 39.Find LCM.
 
 
 
